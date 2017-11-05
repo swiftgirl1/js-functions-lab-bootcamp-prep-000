@@ -4,21 +4,21 @@ var holiday = 'Happy Independence Day'
 var day = 20
 
 function happyHolidays ()  {
-  console.log 'Happy holidays!'
+  console.log ("Happy holidays!");
 }
 
 
 function happyHolidaysTo(name)   {
- console.log('happy holidays, ${name}!')
+ return "Happy holidays, ${name}!";
 
  }
 
 function happyHolidayTo(holiday, name)  {
- return '${holiday},${name}!'
+ return "${holiday},${name}!"
 }
 
 function holidayCountdown(holiday,days)  {
-'holiday' = "Mother's Day"
+holiday = "Mother's Day"
 return "It's ${days} days until ${holiday}!"
 
 }
