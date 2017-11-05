@@ -1,9 +1,9 @@
 //write your code below!
-var name = 'you'
-var holiday = 'Happy Independence Day'
-var days = 20
+var name = 'you';
+var holiday = 'Happy Independence Day';
 
-function happyHolidays ()  {
+
+functions happyHolidays ()  {
   console.log ("Happy holidays!");
 }
 
@@ -16,6 +16,7 @@ function happyHolidaysTo(name)   {
 function happyHolidayTo(holiday, name)  {
  return "${holiday}, ${name}!";
 }
+var days = 20;
 
 function holidayCountdown(holiday,days)  {
 holiday : "Mother's Day";
